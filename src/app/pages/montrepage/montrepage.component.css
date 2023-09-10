@@ -1,0 +1,44 @@
+img{
+    width: 300px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: -30%;
+}
+.header .name{
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.header .price{
+    margin-bottom: -20%;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: -30%;
+}
+button{
+    margin-top: 13%;
+    margin-left: 45%;
+    padding: 10px 45px;
+}
+.container hr{
+    width: 600px;
+    margin-left: 300px;
+    margin-top: 60px;
+}
+a{
+  
+    text-decoration: none;
+    padding: 0px 10px;
+    font-size: 25px;
+ 
+    
+  
+}
+.col-lg-2{
+    margin-left: 700px;
+}

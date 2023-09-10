@@ -1,0 +1,23 @@
+<div class="container">
+    <img src="../../../assets/img80.jpg" alt="">
+    <h1>Montres coup de coeur</h1>
+    <hr>
+</div>
+
+<ul>
+    <li *ngFor="let page of foods">
+        <a routerLink="/page/{{page.id}}">
+            <img src="{{page.imageUrl}}" alt=""> 
+            <div class="content">
+                <div class="name">
+                    {{page.name}}
+                </div>
+                <div class="price">
+                    {{page.price}}
+
+                </div>
+            </div>
+        </a>
+       
+    </li>
+</ul>

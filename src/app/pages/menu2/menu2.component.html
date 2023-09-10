@@ -1,0 +1,22 @@
+<div class="container">
+    <h1>Montres Homme</h1>
+    <hr>
+</div>
+
+<ul>
+    <li *ngFor="let montre of foods">
+        <a routerLink="/montre/{{montre.id}}">
+            <img src="{{montre.imageUrl}}" alt=""> 
+            <div class="content">
+                <div class="name">
+                    {{montre.name}}
+                </div>
+                <div class="price">
+                    {{montre.price}}
+
+                </div>
+            </div>
+        </a>
+       
+    </li>
+</ul>

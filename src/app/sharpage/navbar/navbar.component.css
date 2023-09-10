@@ -1,0 +1,13 @@
+
+.navbar-nav .nav-link.activelink, .navbar-nav .nav-link.show {
+    color:var( --secondary-color);
+   
+  }
+  
+  
+  
+  .navbar-nav .nav-link.activelink, .navbar-nav .nav-link.show {
+    color:var(--primary-color);
+    text-decoration: underline;
+   
+  }
